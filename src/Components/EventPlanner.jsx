@@ -50,7 +50,17 @@ const EventPlanner = () => {
                     <li>Recordatorios y notificaciones</li>
                 </ul>
             </section>
-            <section className="testimonials"></section>
+            <section className="testimonials">
+                <h2>Testimonios</h2>
+                <div className="testimonial">
+                    <p>"Altamente recomendable para organizar el 4º Congreso"</p>
+                    <p className="author">- LGA</p>
+                </div>
+                <div>
+                    <p>"Use Event Planner para organizar mi coloquio"</p>
+                    <p className="author">- AEP</p>
+                </div>
+            </section>
             <section className="contact"></section>
         </div>
     );
