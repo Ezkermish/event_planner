@@ -39,7 +39,17 @@ const EventPlanner = () => {
                     <li>Deportivos</li>
                 </ul>
             </section>
-            <section className="features"></section>
+
+            <section className="features">
+                <h2>Características</h2>
+                <ul>
+                    <li>Fácil creación y administración de eventos</li>
+                    <li>Plantillas personalizadas</li>
+                    <li>Administración de invitados</li>
+                    <li>Colaboración en tiempo real</li>
+                    <li>Recordatorios y notificaciones</li>
+                </ul>
+            </section>
             <section className="testimonials"></section>
             <section className="contact"></section>
         </div>
