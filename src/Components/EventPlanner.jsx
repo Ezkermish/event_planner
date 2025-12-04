@@ -7,8 +7,36 @@ const EventPlanner = () => {
             <header>
                 <h1>Bienvenido a Event Planner</h1>
             </header>
-            <section className="description"></section>
-            <section className="event_categories"></section>
+            <section className="description">
+                <p>Planifica y organiza tus eventos académicos sin
+                    esfuerzo con Event Planner. Desde conferencias,
+                    congresos, capacitaciones virtuales o presenciales,
+                    te tenemos cubierto.
+                </p>
+                <button className="get-started-button">Comenzar</button>
+            </section>
+
+            <section className="event_categories">
+                <ul>
+                    <h2>Eventos Académicos</h2>
+                    <li>Ceremonias</li>
+                    <li>Conferencias</li>
+                    <li>Cursos</li>
+                    <li>Diplomados</li>
+                    <li>Coloquios</li>
+                    <li>Congresos</li>
+                </ul>
+                <ul>
+                    <h2>Eventos de inicio de cursos</h2>
+                    <li>Ceremonia de inicio de ciclo</li>
+                    <li>Ceremonias cívicas</li>
+                </ul>
+                <ul>
+                    <h2>Eventos del Normalismo</h2>
+                    <li>Culturales</li>
+                    <li>Deportivos</li>
+                </ul>
+            </section>
             <section className="features"></section>
             <section className="testimonials"></section>
             <section className="contact"></section>
