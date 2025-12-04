@@ -16,9 +16,10 @@ const EventPlanner = () => {
                 <button className="get-started-button">Comenzar</button>
             </section>
 
-            <section className="event_categories">
+            <section className="events_categories">
+                {/* Eventos académicos */}
                 <ul>
-                    <h2>Eventos Académicos</h2>
+                    <h2>Eventos Académicos:</h2>
                     <li>Ceremonias</li>
                     <li>Conferencias</li>
                     <li>Cursos</li>
@@ -27,12 +28,13 @@ const EventPlanner = () => {
                     <li>Congresos</li>
                 </ul>
                 <ul>
-                    <h2>Eventos de inicio de cursos</h2>
+                    <h2>Eventos de inicio de cursos:</h2>
                     <li>Ceremonia de inicio de ciclo</li>
                     <li>Ceremonias cívicas</li>
                 </ul>
+
                 <ul>
-                    <h2>Eventos del Normalismo</h2>
+                    <h2>Eventos del Normalismo:</h2>
                     <li>Culturales</li>
                     <li>Deportivos</li>
                 </ul>
