@@ -56,12 +56,14 @@ const EventPlanner = () => {
                     <p>"Altamente recomendable para organizar el 4º Congreso"</p>
                     <p className="author">- LGA</p>
                 </div>
-                <div>
+                <div className="testimonial">
                     <p>"Use Event Planner para organizar mi coloquio"</p>
                     <p className="author">- AEP</p>
                 </div>
             </section>
-            <section className="contact"></section>
+            <section className="contact">
+
+            </section>
         </div>
     );
 };
